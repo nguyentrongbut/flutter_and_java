@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.places.controller;
 
-import com.example.demo.entity.Place;
-import com.example.demo.service.PlaceService;
+import com.example.places.entity.Place;
+import com.example.places.service.PlaceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

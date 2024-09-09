@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.places.repository;
 
-import com.example.demo.entity.Place;
+import com.example.places.entity.Place;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PlaceRepository extends JpaRepository<Place, Long> {
